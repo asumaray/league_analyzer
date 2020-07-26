@@ -6,6 +6,8 @@ from requests.adapters import HTTPAdapter
 from requests.packages.urllib3.util.retry import Retry
 from requests_toolbelt import sessions
 
+# this is a temp API key that expires after 24 hours so don't get any ideas
+# might switch to using env variables or something if I decide to keep working on it
 apiKey = "RGAPI-7988f2b9-a4dd-4151-ae5e-9a432ce3cb68"
 
 # set up retry strategy for API calls w/exponential backoff
